@@ -8,11 +8,10 @@ public class Solution {
         for (int i = 0; i < 5; i++) {
                 Arrays.sort(powers);
                 powers[0]++;
-                int prod = 1;
-                for (int j = 0; j < 3; j++) {
-                    prod*=powers[j];
-                    maxAns = Math.max(prod,maxAns);
-                }
+                maxAns=1;
+        }
+        for (int j = 0; j < 3; j++) {
+            maxAns*=powers[j];
         }
         return maxAns;
     }
