@@ -9,6 +9,10 @@ A substring is a continuous sequence of characters within the string. Your task 
 - The first line contains an integer `T` – the number of test cases.
 - For each of the next `T` lines, a single string `s` is provided.
 
+## Output Format
+
+For each test case, output the length of longest unbroken journey on a new line.
+
 ## Examples:
 
 **Example 1:**
