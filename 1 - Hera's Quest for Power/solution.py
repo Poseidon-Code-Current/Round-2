@@ -1,6 +1,6 @@
 def find_second_largest_power(N, powers):
-    max_power = 0
-    second_max_power = 0
+    max_power = -1
+    second_max_power = -1
     for i in range(N):
         if powers[i] > max_power:
             second_max_power = max_power
