@@ -44,6 +44,6 @@ zaz
 
 ## Constraints
 
-- `1 <= T <= 10^3`
+- `1 <= T <= 100`
 - `2 <= s.length <= 100`
 - `s` consists only of lowercase English letters.
