@@ -11,7 +11,7 @@ A "word" is defined as the longest sequence of non-space characters. Spaces only
 ## Input Format
 
 - The first line contains an integer `N` that denotes the number of strings 
-- String `s` will consist of at least one word and may include spaces between words.
+- For each of the next `N` lines, a single string `s`.
 
 ## Output Format
 
